@@ -113,14 +113,20 @@ body,
 
 #content .field-name-field-change-comment, 
 #content .views-field-field-change-comment {
-    xcolor:#FFF; 
-    background-color: #EBC586; 
-     
+    Xcolor:#FFF; 
+    background-color: #f9d95a;
+    Xborder: 1px solid #bca445;
+    padding: 0;   
     Xpadding:5px;
     Xz-index:  -1;   
 
 }
+#XXXcontent .field-name-field-change-comment, #content .views-field-field-change-comment  p {
+    padding: 0; 
+}
 
+
+#content .view-les-derni-res-modifications .views-row, 
 #content  .page-les-derni-res-modifications .view-display-id-page .views-row, 
 #content  .view-id-les_illustrations .views-row,
 #content  .view-display-id-block_2 .views-row
@@ -161,18 +167,33 @@ text-align: center;
 
 }
 .view-id-les_illustrations img {
-    margin: 0px 0px 10px 0px; 
+    
+}
+td {
+    background: #FFF; 
+}
+td img {
+    width: 60px !important; 
+    height: 60px !important;
+    Xopacity: .1;  
+    
+}
+
+#content img  {
+    
+    margin: 0px 10px 10px 0px;
+    
+    
 }
 
 XOLD.view-display-id-block_2 field-name-field-illustration-top img, .view-display-id-page field-name-field-illustration-top img, 
+
 
 
 .field-name-field-illustration-top img {
     float: left;
     width:250px;
     height: auto;
-    margin: 0px 10px 0px 0px; 
-     margin: 0px 10px 0px 0px;
      Xopacity: 0.1;     
  
 
@@ -181,9 +202,10 @@ XOLD.view-display-id-block_2 field-name-field-illustration-top img, .view-displa
 .node-page-de-r-gles .field-name-field-illustration-top  img {
     
     width:370px;
-    float: left; 
+    float: right; 
     height: auto;
-    Xopacity: .1;   
+    Xopacity: .1;
+    margin: 0px 0px 0px 10px !important;    
 }
  
 
@@ -275,15 +297,21 @@ h1 {
     
 }
 #content strong {
+  
     font-weight: 600;
-    color: #FFF; 
-    background-color: #F68F86; 
+    Xcolor: #FFF; 
+    background-color: #78c5d0; 
     display: block;
     font-weight: 400; 
-    padding: 2px 2px 2px 2px;  
+    Xpadding: 2px 2px 2px 2px;  
     Xfont-style: italic;  
     
 }
+#content a {
+    color: #296176;
+    Xtext-align: right; 
+}
+
 #content {
     line-height: 1.6em;
      

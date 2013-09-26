@@ -25,6 +25,7 @@ h3,
 h4,
 h5,
 h6 {
+       clear: both;
   margin: 1.0em 0 0.5em;
   font-weight: inherit;
 }
@@ -505,9 +506,19 @@ transition: background  1s;
    text-decoration: none;  
   background: #000;
   color: #fff;
-  border-color: #fff;  
+  border-color: #fff;
+    
   
   
+}
+
+.active-trail a:hover {
+   Xopacity: .8;
+   background: #FFF !important;
+   color:#000 !important; 
+      
+    
+    
 }
 
 #main-menu-links a:active {
