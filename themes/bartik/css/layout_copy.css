@@ -7,7 +7,7 @@ body,
   height: 100%;
 }
 #page-wrapper {
-  XXmin-height: 100%;
+  min-height: 100%;
   min-width: 960px;
 }
 #header div.section,
@@ -291,7 +291,7 @@ h1 {
     display: none; 
 }
 .sidebar .more-link {
-    Xmargin-top: .5em; 
+    margin-top: .5em; 
     font-size: smaller;
     text-decoration: underline; 
     
@@ -300,7 +300,7 @@ h1 {
   
     font-weight: 600;
     Xcolor: #FFF; 
-    XXXbackground-color: #78c5d0; 
+    background-color: #78c5d0; 
     display: block;
     font-weight: 400; 
     Xpadding: 2px 2px 2px 2px;  
@@ -309,7 +309,7 @@ h1 {
 }
 #content a {
     color: #296176;
-    Xtext-align: right; 
+    text-align: left;   
 }
 
 #content {
