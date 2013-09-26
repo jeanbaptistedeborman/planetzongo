@@ -7,7 +7,7 @@ body,
   height: 100%;
 }
 #page-wrapper {
-  min-height: 100%;
+  XXmin-height: 100%;
   min-width: 960px;
 }
 #header div.section,
@@ -300,7 +300,7 @@ h1 {
   
     font-weight: 600;
     Xcolor: #FFF; 
-    background-color: #78c5d0; 
+    XXXbackground-color: #78c5d0; 
     display: block;
     font-weight: 400; 
     Xpadding: 2px 2px 2px 2px;  
