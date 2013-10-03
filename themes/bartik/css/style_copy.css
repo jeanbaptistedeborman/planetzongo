@@ -10,6 +10,10 @@ body {
   border: 0;
   outline: 0;
 }
+
+.sidebar {
+    font-size:1.1em; 
+}
 a:link,
 a:visited {
   text-decoration: none;
@@ -25,19 +29,19 @@ h3,
 h4,
 h5,
 h6 {
-       clear: both;
-  margin: 1.0em 0 0.5em;
+       Xclear: both;
+  margin: 0em 0em 0em 0em;
   font-weight: inherit;
 }
 h1 {
-  font-size: 1.357em;
+  font-size: 1.600em;
   color: #000;
   border-bottom: 1px solid #CCC;
   margin: 10px 0px 2px 0px; 
   padding: 0px 0px 8px 0px;   
 }
 h2 {
-  font-size: 1.143em;
+  font-size: 1.15em;
 }
 h3 {
     font-size: 1.143em;
@@ -257,8 +261,8 @@ ul.menu li {
 }
 .region-content ul,
 .region-content ol {
-  margin: 1em 0;
-  padding: 0 0 0.25em 2.5em; /* LTR */
+  Xmargin: 1em 0;
+ padding: 0 0 0em 2.5em; /* LTR */
 }
 .item-list ul li {
   margin: 0;
@@ -485,21 +489,17 @@ h1#site-name {
 }
 #main-menu-links a {
   color: #333;
-  background: #ccc;
-  Xbackground: rgba(230, 230, 230, 1);
-  float: left; /* LTR */
+  background: #fff; 
+  float: left; /* LTR */    
   Xheight: 2.4em;
   Xline-height: 2.4em;
- padding:.3em .4em .3em .4em;
-  Xfont-variant-caps:   
+   padding:.3em .4em .3em .4em;
   text-decoration: none;
   font-weight: 200;
-  Xtext-transform: uppercase;
-  
   margin-bottom: 4px;
   Xfont-size: larger;  
-font-size:  1.4em;
-transition: background  1s;     
+   font-size:  1.3em;
+transition: background  .5s;     
 }
 #main-menu-links a:hover,
 #main-menu-links a:focus {
@@ -507,22 +507,20 @@ transition: background  1s;
   background: #000;
   color: #fff;
   border-color: #fff;
-    
-  
-  
 }
 
 .active-trail a:hover {
    Xopacity: .8;
    background: #FFF !important;
-   color:#000 !important; 
+   color:#000 !important;
+   cursor: default;  
       
     
     
 }
 
 #main-menu-links a:active {
-  background: #b3b3b3;
+  Xbackground: #;
   background: rgba(255, 255, 255, 1);
 }
 #main-menu-links li a.active {
@@ -594,7 +592,7 @@ transition: background  1s;
 /* ----------------- Content ------------------ */
 
 #content {
- font-size: 1em; 
+ font-size: 1.13em; 
 }
 .content {
   margin-top: 10px;
@@ -606,8 +604,8 @@ h1#page-title {
 }
 #content h2 {
   margin-bottom: 2px;
-  font-size: 1.500em;
-  line-height: 1.4;
+  Xfont-size: 1.500em;
+  Xline-height: 1.4;
 }
 .node .content {
   Xfont-size: 1.071em;
@@ -985,7 +983,7 @@ ul.links {
 
 .tabs {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 .tabs ul.primary {
   padding: 0 3px;

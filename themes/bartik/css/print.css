@@ -1,6 +1,21 @@
 
 /* ---------- General Layout ---------- */
 
+
+@page  
+{ 
+    Xsize: letter;    /* auto is the initial value */ 
+    Xsize: 12cm 20cm;
+    Xoverflow: visible; 
+    /* this affects the margin in the printer settings */ 
+    Xoverflow: visible; 
+     Xmargin-left: 6cm;
+  Xmargin-right: 6cm;
+   
+   
+}
+ 
+
 body,
 input,
 textarea,
@@ -12,7 +27,9 @@ body.two-sidebars,
 body.sidebar-first,
 body.sidebar-second,
 body {
-  width: 640px;
+  width: auto;   
+  font-size: 1.2em;
+  Xmargin: 0cm 5cm 0cm 5cm;   
 }
 #sidebar-first,
 #sidebar-second,
